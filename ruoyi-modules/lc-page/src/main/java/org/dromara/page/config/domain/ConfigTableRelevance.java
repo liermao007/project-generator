@@ -61,5 +61,11 @@ public class ConfigTableRelevance extends TenantEntity {
     @TableLogic
     private String delFlag;
 
+    public ConfigTableRelevance(String sourceTable, String sourceColumn, String linkTable, String linkColumn) {
+        this.sourceTable = sourceTable;
+        this.sourceColumn = sourceColumn;
+        this.linkTable = linkTable;
+        this.linkColumn = linkColumn;
+    }
 }
 
