@@ -40,6 +40,7 @@
         <lombok.version>1.18.26</lombok.version>
         <bouncycastle.version>1.72</bouncycastle.version>
         <justauth.version>1.16.5</justauth.version>
+        <com.google.guava>32.0.1-jre</com.google.guava>
         <!-- 离线IP地址定位库 -->
         <ip2region.version>2.7.0</ip2region.version>
 
@@ -339,6 +340,18 @@
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-demo</artifactId>
                 <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>lc-generator</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${com.google.guava}</version>
             </dependency>
 
         </dependencies>
