@@ -14,7 +14,7 @@
     </description>
 
     <properties>
-        <revision>5.0.0</revision>
+        <revision>5.1.0-SNAPSHOT</revision>
     </properties>
 
     <dependencyManagement>
@@ -114,6 +114,12 @@
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-common-sms</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>ruoyi-common-social</artifactId>
                 <version>${revision}</version>
             </dependency>
 
